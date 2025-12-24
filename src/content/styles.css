@@ -1,0 +1,51 @@
+#jat-overlay {
+  position: fixed;
+  top: 100px;
+  right: 16px;
+  width: 260px;
+  z-index: 99999;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  color: #222;
+
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#jat-overlay .jat-header {
+  padding: 8px 10px;
+  background: #f3f3f3;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 8px 8px 0 0;
+}
+
+#jat-overlay .jat-body {
+  padding: 10px;
+}
+
+#jat-overlay label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#jat-overlay select,
+#jat-overlay textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+#jat-overlay textarea {
+  resize: vertical;
+  min-height: 50px;
+}
+
+#jat-overlay .jat-date {
+  margin: 6px 0 10px;
+  font-size: 12px;
+  color: #555;
+}
