@@ -1,4 +1,4 @@
 function detectLinkedInJobPage() {
-  console.log("DETECTOR LOADED");
+  if (!location.pathname.startsWith("/jobs")) return { isJobPage: false };
   return { isJobPage: true };
 }

@@ -3,6 +3,13 @@ function injectOverlay(job, app) {
 
   const el = document.createElement("div");
   el.id = "jat-overlay";
+  el.style.cssText = `
+    position: fixed;
+    top: 120px;
+    right: 16px;
+    z-index: 99999;
+  `;
+
   el.innerHTML = `
     <strong>Application Tracker</strong><br/>
     <select id="jat-status">
@@ -12,6 +19,7 @@ function injectOverlay(job, app) {
       <option value="rejected">Rejected</option>
     </select>
   `;
+
   document.body.appendChild(el);
 
   const select = el.querySelector("#jat-status");

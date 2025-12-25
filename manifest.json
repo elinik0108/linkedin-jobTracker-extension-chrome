@@ -6,10 +6,12 @@
     {
       "matches": ["https://www.linkedin.com/jobs/*"],
       "js": [
+          "src/utils/dom.js",
           "src/utils/hash.js",
           "src/storage/storage.js",
           "src/content/detector.js",
           "src/content/extractor.js",
+          "src/content/overlay.js",
           "src/content/content.js"
         ]
     }
