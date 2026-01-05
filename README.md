@@ -2,7 +2,7 @@
 
 A free Chrome extension to track your job applications on LinkedIn.
 
-<img src="images/demo.gif" width="600" alt="Demo">
+<img src="images/demo.gif" width="400" alt="Demo">
 
 
 ## Features
@@ -32,16 +32,16 @@ A free Chrome extension to track your job applications on LinkedIn.
 ## Screenshots
 
 ### Tracking Jobs
-<img src="images/screenshot1.png" width="500" alt="Tracking Jobs">
+<img src="images/screenshot1.png" width="300" alt="Tracking Jobs">
 
 
 ### Dashboard
-<img src="images/screenshot2.png" width="500" alt="Dashboard">
+<img src="images/screenshot2.png" width="300" alt="Dashboard">
 
 
 ## Contributing
 
-Found a bug? Have a feature request? [Open an issue](https://github.com/elinik0108/linkedin-job-tracker/issues).
+Found a bug? Have a feature request? [Open an issue](https://github.com/elinik0108/linkedin-jobTracker-extension-chrome/issues).
 
 Pull requests are welcome!
 
