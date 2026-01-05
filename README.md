@@ -2,7 +2,8 @@
 
 A free Chrome extension to track your job applications on LinkedIn.
 
-![Demo](images/demo.gif)
+<img src="images/demo.gif" width="600" alt="Demo">
+
 
 ## Features
 
@@ -20,7 +21,6 @@ A free Chrome extension to track your job applications on LinkedIn.
 4. Enable "Developer mode" (top right)
 5. Click "Load unpacked" and select the extracted folder
 
-See [detailed instructions](INSTALLATION.md) if you need help.
 
 ## Usage
 
@@ -32,10 +32,12 @@ See [detailed instructions](INSTALLATION.md) if you need help.
 ## Screenshots
 
 ### Tracking Jobs
-![Overlay](images/screenshot1.png)
+<img src="images/screenshot1.png" width="500" alt="Tracking Jobs">
+
 
 ### Dashboard
-![Dashboard](images/screenshot2.png)
+<img src="images/screenshot2.png" width="500" alt="Dashboard">
+
 
 ## Contributing
 
