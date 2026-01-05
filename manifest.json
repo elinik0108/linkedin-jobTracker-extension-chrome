@@ -1,19 +1,38 @@
 {
   "manifest_version": 3,
-  "name": "Job Tracker Test",
-  "version": "0.0.1",
+  "name": "Job Tracker Extension",
+  "version": "0.0.2",
+  "description": "Track your job applications on LinkedIn",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Job Tracker Dashboard"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.linkedin.com/jobs/*"],
       "js": [
-          "src/utils/dom.js",
-          "src/utils/hash.js",
-          "src/storage/storage.js",
-          "src/content/detector.js",
-          "src/content/extractor.js",
-          "src/content/overlay.js",
-          "src/content/content.js"
-        ]
+        "src/utils/dom.js",
+        "src/utils/hash.js",
+        "src/storage/storage.js",
+        "src/content/detector.js",
+        "src/content/extractor.js",
+        "src/content/overlay.js",
+        "src/content/content.js"
+      ],
+      "css": ["src/content/styles.css"]
     }
   ]
 }
