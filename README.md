@@ -43,16 +43,7 @@ A free Chrome extension to track your job applications on LinkedIn.
 
 Found a bug? Have a feature request? [Open an issue](https://github.com/elinik0108/linkedin-jobTracker-extension-chrome/issues).
 
-Pull requests are welcome!
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
 
-## Support
-
-⭐ If this extension helped you, please star this repo!
-
----
-
-Made with ❤️ for job seekers everywhere
